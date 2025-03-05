@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.microemu:midpapi20:2.0.3")
+    compileOnly("org.microemu:midpapi20:2.0.4")
     // it's LGPL licensed
 }
 
@@ -33,4 +33,8 @@ tasks.jar {
         attributes["MicroEdition-Configuration"] = "CLDC-1.1"
         // for Nokia 3310 (2017)
     }
+}
+
+tasks.register("run") {
+
 }

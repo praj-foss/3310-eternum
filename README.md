@@ -17,4 +17,6 @@ Once JDK is installed, use the following command to build:
 
 To emulate the jars locally, use [MicroEmulator](https://sourceforge.net/projects/microemulator/)
 
+![real example](/env/example.jpg)
+
 #### Thanks!
