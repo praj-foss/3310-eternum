@@ -40,7 +40,9 @@ public class MainApp extends MIDlet {
         display = Display.getDisplay(this);
         display.setCurrent(root);
 
-        service.run();
+        service.run("OK__" + getAppProperty("MIDlet-Name"));
+        answerItem.setText(service.getTime());
+
 
 //        serviceThread = new Thread(service);
 //        serviceThread.start();
