@@ -18,8 +18,6 @@ Once JDK is installed, use the following command to build:
 
 To emulate the jars locally, use [MicroEmulator](https://sourceforge.net/projects/microemulator/)
 
-![real example](/env/example.jpg)
-
 ### DEBUGG
 
 This is an app for scanning java environment of the device. Comes with a known list of property names.
